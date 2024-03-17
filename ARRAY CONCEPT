@@ -1,0 +1,23 @@
+#include <assert.h>
+#include <limits.h>
+#include <math.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int main()
+{
+ int a;
+ scanf("%d",&a);
+ char *b[]={"zero","one","two","three","four","five","six","seven","eight"};
+ if(a<9)
+ {
+     printf("%s",b[a]);
+ }   
+ else {
+ printf("Greater than 9");
+ }
+    return 0;
+}
